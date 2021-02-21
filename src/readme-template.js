@@ -1,8 +1,5 @@
-# Professional README Generator Starter Code
-
-[How to create a Professional README](./readme-guide.md)
-
- # Your Project Title
+${data.title}
+  # Your Project Title
 
   ## Description 
   ${Description}
@@ -15,10 +12,7 @@
   * [Usage](#usage)
   * [Credits](#credits)
   * [License](#license)
-  * [Badges](#badges)
-  * [Features](#features)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
+  
   
   ## Installation
   
