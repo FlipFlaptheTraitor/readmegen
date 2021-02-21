@@ -54,20 +54,8 @@ const questions = [
     {
         type:'input',
         message="Enter any credits you would like to add to your project ",
-        validate:(usageInput) =>{
-            if (usageInput) {
-                return true;
-            } else {
-                console.log('Please enter any credits you would like to add to your project');
-                return false;
-            }
-        }
-    },
-    {
-        type:'input',
-        message="Enter any credits you would like to add to your project ",
-        validate:(usageInput) =>{
-            if (usageInput) {
+        validate:(creditInput) =>{
+            if (creditInput) {
                 return true;
             } else {
                 console.log('Please enter any credits you would like to add to your project');
@@ -126,8 +114,79 @@ const questions = [
             }
         }
     },
+    {
+        type:'input',
+        message="Enter any other contributers to the project ",
+        validate:(contributeInput) =>{
+            if (contributeInput) {
+                return true;
+            } else {
+                console.log('Please enter any other contributers to the project');
+                return false;
+            }
+        }
+    },
+    {
+        type:'input',
+        message="Enter a description of how to test your project ",
+        validate:(testInput) =>{
+            if (testInput) {
+                return true;
+            } else {
+                console.log('Please enter a description of how to test your project');
+                return false;
+            }
+        },
+    }
 ]
-
+.then(({
+    titleInput,
+    descriptionInput,
+    installationInput,
+    usageInput,
+    creditInput,
+    licenseInput,
+    //badgingInput
+    featureInput,
+    GitInput,
+    emailInput,
+    contributeInput,
+    testInput
+}) => {
+    const readmetemplate ='# 
+     ${titleInput}
+    # Description 
+    ${descriptionInput}
+  
+    * [Installation](#installation)
+   * [Usage](#usage)
+   * [Credits](#credits)
+   * [License](#license)
+   * [Badges](#badges)
+   * [Features](#features)
+   * [Contributing](#contributing)
+   * [Tests](#tests)
+  
+   # Installation
+   ${installationInput}
+   ## Usage 
+   ${usageInput}
+   ## Credits
+   ${creditInput}
+   ## License
+   ${licenseInput}
+   ## Badges
+  // ${BadgeInput}
+   ## Features
+   ${featureInput}
+   ## Contributing  
+   ${GitInput}
+   ${emailInput}
+   ${contributeInput}
+   ## Tests
+   ${testInput}';
+ }
+ ) 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
