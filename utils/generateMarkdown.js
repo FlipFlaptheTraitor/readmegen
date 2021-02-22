@@ -17,7 +17,7 @@ function generateMarkdown(data) {
     
   # Description 
   ${data.descriptionInput}
-
+  ## Table of Contents
   * [Installation](#installation)
  * [Usage](#usage)
  * [Credits](#credits)
@@ -27,24 +27,24 @@ function generateMarkdown(data) {
  * [Contributing](#contributing)
  * [Tests](#tests)
 
- # Installation
+ ## Installation
  ${data.installationInput}
- ## Usage 
+ ### Usage 
  ${data.usageInput}
- ## Credits
+ ### Credits
  ${data.creditInput}
- ## License
+ ### License
  ${data.licenseInput}
- ## Badges
+ ### Badges
  ${data.licenseInput} [![${data.licenseInput} license](https://img.shields.io/badge/License-${data.licenseInput}-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
- ## Features
+ ### Features
  ${data.featureInput}
- ## Contributing  
+ ### Contributing  
  All questions about the project can be answer by reaching out @:
  [link to GitHub](https://github.com/${data.GitInput})
  ${data.emailInput}
  ${data.contributeInput}
- ## Tests
+ ### Tests
  ${data.testInput} 
   
 `;

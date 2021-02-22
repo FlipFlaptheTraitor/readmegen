@@ -25,6 +25,7 @@ fills out and generates a README file that is perfect to use for any project.
   
   
   ## Usage 
+  ![](https://media.giphy.com/media/aLqMp0xfzzI9qqjuWW/giphy.gif)
 After cloning the repository you will open the command line and move to the directory that contains the index.js file and various other files and folders for the application. You then will run the command npm init. After running the npm init command you will then run the npm install inquirer command. after these are done you can access the actual index.js file by entering the command node index.js.After folling the prompts your README file will be generated in the dist directory fully formed and ready for your project.
   ## Credits
   
@@ -54,6 +55,7 @@ This program uses Node to run the javascript it features the npm inquirer which 
   
   
   ## Contributing
+  [![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/FlipFlaptheTraitor/readmegen/graphs/contributors)
   [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)]( https://github.com/FlipFlaptheTraitor)
  edited by Kevin Miller (FlipFlaptheTraitor) using Git and VScode
 
