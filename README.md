@@ -21,7 +21,7 @@ fills out and generates a README file that is perfect to use for any project.
   
   ## Installation
   
- To generate a README file you first have to run npm install to retrieve the package.json files inquirer and axios which will allow input promps at the command line and axious will fetch a users GitHub API. The project can be ran on the command line by entering node index.js when the command line is in the proper directory.
+ To generate a README file you first have to run npm install to retrieve the package.json files inquirer  which will allow input promps at the command line. The project can be ran on the command line by entering node index.js when the command line is in the proper directory.
   
   
   ## Usage 
@@ -50,7 +50,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
   ## Features
   
-This program uses Node to run the javascript it features the npm inquirer which allows a users to interact with node and the command line. It also features axios which allows a user to connect their GitHub user info directly to the project.
+This program uses Node to run the javascript it features the npm inquirer which allows a users to interact with node and the command line. 
   
   
   ## Contributing
