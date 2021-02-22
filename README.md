@@ -31,7 +31,7 @@ After cloning the repository you will open the command line and move to the dire
 Credit to Xandromus and gchoi2u for creating and contributing the base files for the program.
   
   ## License
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  MIT License
 
 Copyright (c) [2020] [Kevin Miller]
@@ -54,8 +54,8 @@ This program uses Node to run the javascript it features the npm inquirer which 
   
   
   ## Contributing
-  
+  [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)]( https://github.com/FlipFlaptheTraitor)
  edited by Kevin Miller (FlipFlaptheTraitor) using Git and VScode
-  GitHub: https://github.com/FlipFlaptheTraitor
+
   ## Tests
   

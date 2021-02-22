@@ -36,11 +36,12 @@ function generateMarkdown(data) {
  ## License
  ${data.licenseInput}
  ## Badges
-// ${data.BadgeInput}
+ ${data.licenseInput} [![${data.licenseInput} license](https://img.shields.io/badge/License-${data.licenseInput}-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
  ## Features
  ${data.featureInput}
  ## Contributing  
- ${data.GitInput}
+ All questions about the project can be answer by reaching out @:
+ [link to GitHub](https://github.com/${data.GitInput})
  ${data.emailInput}
  ${data.contributeInput}
  ## Tests

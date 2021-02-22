@@ -85,7 +85,7 @@ const questions = [
             }
         }
       },
-      //Badging
+     
       {
         type:'input',
         message:"Enter the features of your project ",

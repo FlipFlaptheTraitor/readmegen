@@ -1,8 +1,8 @@
 
-  # readmegen
+  # na
     
   # Description 
-  uses node to generate a readme
+  na
 
   * [Installation](#installation)
  * [Usage](#usage)
@@ -14,21 +14,22 @@
  * [Tests](#tests)
 
  # Installation
- clone from git run in git
+ na
  ## Usage 
- to create a readme for anyproject
+ na
  ## Credits
  na
  ## License
- 
+ MIT
  ## Badges
-// undefined
+ MIT [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
  ## Features
- basic readme generater
+ a
  ## Contributing  
- na
- na
- na
+ All questions about the project can be answer by reaching out @:
+ [link to GitHub](https://github.com/a)
+ a
+ a
  ## Tests
- na 
+ a 
   
